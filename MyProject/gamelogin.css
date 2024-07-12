@@ -1,0 +1,48 @@
+.login{
+    margin-left: 450px;
+    margin-right:350px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 200px;;
+    padding-top: 200px;
+    text-shadow: 50px;
+}
+button:hover{
+     background-color: darkgray;
+     border-radius: 10px;
+}
+button{
+  box-shadow:0 0 10px rgb(160, 135, 251) ;
+}
+input{
+    border-radius: 10px;
+    width:200px;
+    height: 20px;
+    box-shadow: 0 0 5px rgb(160, 135, 251);
+}
+input:hover{
+  border-radius: 50px;
+  background-color: rgb(169, 169, 169);
+}
+.login-container {
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('loginn.jpg'); 
+    background-size: cover; 
+    
+  }
+  
+  .login-content {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  label{
+    color: azure;
+    text-shadow: 2px 2px 5px rgb(160, 135, 251);
+  }
+  h2{
+    color:beige;
+    text-shadow: 5px 2px 5px rgb(160, 135, 251);
+  }

@@ -1,0 +1,77 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .board {
+    display: inline-block;
+    border: 3px solid #84ba9d;
+    border-radius: 15px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left:450px;
+    box-shadow: 0 0 10px rgb(160,135,251);
+  }
+  
+  .row {
+    display:flex;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    border: 1px solid #84ba9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    background-color: #1a1b1b;
+  }
+  
+  .cell:hover {
+    background-color: #84ba9d;
+  }
+  
+  .status {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .reset-button {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #2f2d36;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 450px;
+  }
+  
+  .reset-button:hover {
+    background-color: #635658;
+  }
+
+  .game-container {
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('gameee.jpg.jpeg'); 
+    background-size: cover; 
+    
+  }
+  h1{
+    text-align: center;
+    color:azure;
+    margin-left: 450px;
+    text-shadow: 2px 2px 5px rgb(160, 135, 251);
+  }
+  .status{
+    margin-left: 450px;
+    color:beige;
+  }
